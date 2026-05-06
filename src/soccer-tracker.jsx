@@ -212,8 +212,8 @@ export default function SoccerTracker() {
       const to = new Date(today); to.setDate(today.getDate() + 7);
       const fmt = d => d.toISOString().split("T")[0];
 
-      const res = await fetch(
-  `https://api.football-data.org/v4/competitions/${league.apiCode}/matches?dateFrom=${fmt(from)}&dateTo=${fmt(to)}`,
+     const res = await fetch(
+  `https://corsproxy.io/?https://api.football-data.org/v4/competitions/${league.apiCode}/matches?dateFrom=${fmt(from)}&dateTo=${fmt(to)}`,
         { headers: { "X-Auth-Token": API_KEY } }
       );
 
