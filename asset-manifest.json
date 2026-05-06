@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/footy-globe/static/css/main.e6c13ad2.css",
+    "main.js": "/footy-globe/static/js/main.47842e0b.js",
+    "static/js/453.11df6410.chunk.js": "/footy-globe/static/js/453.11df6410.chunk.js",
+    "index.html": "/footy-globe/index.html",
+    "main.e6c13ad2.css.map": "/footy-globe/static/css/main.e6c13ad2.css.map",
+    "main.47842e0b.js.map": "/footy-globe/static/js/main.47842e0b.js.map",
+    "453.11df6410.chunk.js.map": "/footy-globe/static/js/453.11df6410.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.47842e0b.js"
+  ]
+}
